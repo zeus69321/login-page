@@ -1,0 +1,47 @@
+
+#form1{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 500px;
+    margin-top: 100px;
+    width: 400px;
+    text-align: center;
+    display: block;
+    background-color: white;
+}
+.input{
+    padding: 25px;
+}
+#img1{
+    width: 200px;
+}
+#b1{
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    transition: opacity .8s;
+    width: 100px;
+    border-radius: 25px;
+    font-weight: bold;
+}
+#b1:hover{
+    opacity: .6;
+}
+#fp:link{
+    opacity: .9;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    color: black;
+}
+#fp:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: blue;
+}
+#fp:active{
+    color: green;
+}
+#fp:visited{
+    color: red;
+}
